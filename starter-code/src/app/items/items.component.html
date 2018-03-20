@@ -1,0 +1,11 @@
+<ul *ngIf='items'>
+  <li *ngFor='let item of items'>{{item.name}}
+    <br>
+    <ul>
+      <li> In Stock: {{item.remaining}} </li>
+      <li> Price: $ 0.{{item.cost}} </li>
+      <li> Code: {{item.code}} </li>
+    </ul>
+  </li>
+</ul>
+

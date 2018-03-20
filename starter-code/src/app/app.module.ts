@@ -8,11 +8,15 @@ import { InsertCoinComponent } from './insert-coin/insert-coin.component';
 
 import { BalanceService } from './balance/balance.service';
 import { ItemService } from './item/item.service';
+import { ItemsComponent } from './items/items.component';
+import { SelectItemComponent } from './select-item/select-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InsertCoinComponent,
+    ItemsComponent,
+    SelectItemComponent
   ],
   imports: [
     BrowserModule,

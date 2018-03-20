@@ -35,7 +35,11 @@ export class ItemService {
   }
 
   dispenseItem(callback: any): void {
-    this.selectedItem.remaining -= 1;
+    if (this.selectedItem.remaining > 0) {
+          this.selectedItem.remaining -= 1
+        } else {
+          alert('aint no mo');
+        }
     this.put(this.selectedItem).subscribe(callback);
   }
 

@@ -1,0 +1,9 @@
+<div>
+  <label for="selectItem">Select Your Beverage:</label>
+  <br>
+  <input type="text" [(ngModel)]="itemCode" name="selectItem" [maxLength]=2 placeholder="A4">
+  <br>
+  <button type="submit" (click)='itemSearch()'>Enter</button>
+  <br>
+  <button type="submit" (click)="dispenseItem()" >Dispense</button>
+</div>

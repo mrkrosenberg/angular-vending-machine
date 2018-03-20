@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Sprite",
       "cost": 50,
-      "remaining": 8,
+      "remaining": -9,
       "code": "A1"
     },
     {
@@ -18,14 +18,14 @@
       "id": 3,
       "name": "Dr. Pepper",
       "cost": 75,
-      "remaining": 10,
+      "remaining": 5,
       "code": "C3"
     },
     {
       "id": 4,
       "name": "Mr Pibb",
       "cost": 50,
-      "remaining": 8,
+      "remaining": -7,
       "code": "D4"
     }
   ]
